@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* red hat dsplay */
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10%;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+header ul li a {
+    font-size: 20px;
+    color: #777;
+}
+
+header ul li a:hover {
+    font-size: 20px;
+    color: #000;
+}
+
+header button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 0 50px 1px #bbbbbb;
+}
+header button:hover{
+    box-shadow: 0 0 50px 5px #00ff00;
+    transition: 2s;
+
+}
+
+.banner .banner_text {
+    margin-top: 150px;
+}
+
+.banner .banner_text span {
+    font-size: 25px;
+    color: #777;
+}
+
+.banner .banner_text h1 {
+    font-size: 50px;
+    padding: 20px 0;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.banner .banner_text p {
+    font-size: 22px;
+    color: #777;
+}
+
+.banner .banner_text button {
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 50px;
+    background-color: dodgerblue;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.banner .banner_img {
+    margin-bottom: 200px;
+}
+
+.banner .nuqta {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 8%;
+    top: 220px;
+}
+
+/* banner tugadi */
+
+/* services boshlandi */
+.services {
+    display: block;
+    width: 100%;
+    height: 80vh;
+    padding: 20px 10%;
+}
+
+.services span {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.services h1 {
+    width: 450px;
+    font-size: 65px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.services .items {
+    display: grid;
+    gap: 50px;
+    margin-top: 80px;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 350px);
+}
+
+
+.services .items .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.services .items p {
+    margin-top: 20px;
+    letter-spacing: 1.3px;
+    line-height: 2;
+
+}
+
+/* services tugadi */
+
+/* Portfolio boshlabdi */
+
+
+.portfolio {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 10%;
+    background: linear-gradient(#fff,#fff,#f6d5ff,#fff);
+}
+
+.portfolio .portfolio_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.portfolio .portfolio_text .left {
+    width: 350px;
+    font-size: 30px;
+}
+
+.portfolio .portfolio_text .left u {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.portfolio .portfolio_text .left h1 {
+    margin-top: 15px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.portfolio .portfolio_text .right p {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.portfolio .portfolio_text .right p i {
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+.portfolio .images {
+    display: grid;
+    justify-content: space-between;
+    gap: 50px;
+    grid-template-columns: repeat(2, 600px);
+}
+
+.portfolio .images .rasm {
+    width: 700px;
+    margin-left: -60px;
+}
+
+.clients {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 10%;
+}
+
+.clients span {
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.clients h1 {
+    width: 250px;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: "Red Hat Display", sans-serif;
+
+
+}
+
+.clients .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 170px);
+    grid-template-rows: repeat(1, 170px);
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.clients .cards .card {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.clients .cards .card img {
+    width: 60px
+}
+
+.clients .cards .card p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.clients .cards .card1 {
+    background-color: #FFE7F0;
+    border: 0.5px solid #ffdde9;
+    box-shadow: 0 0 30px 10px #FFE7F0;
+}
+
+.clients .cards .card2 {
+    background-color: #CAFFE1;
+    border: 0.5px solid #a8ffcd;
+    box-shadow: 0 0 30px 10px #CAFFE1;
+}
+
+.clients .cards .card3 {
+    background-color: #DDF5FF;
+    border: 0.5px solid #b8eaff;
+    box-shadow: 0 0 30px 10px #DDF5FF;
+}
+
+.clients .cards .card4 {
+    background-color: #FFEEC9;
+    border: 0.5px solid #ffeabc;
+    box-shadow: 0 0 30px 10px #FFEEC9;
+}
+
+.clients .cards .card5 {
+    background-color: #DBFFC3;
+    border: 0.5px solid #d0ffb1;
+    box-shadow: 0 0 30px 10px #DBFFC3;
+}
+
+.testimonials {
+    width: 100%;
+    height: 120vh;
+    padding: 80px 10%;
+    position: relative;
+    background: linear-gradient(#fff, #fff, rgb(243, 230, 255), #fff);
+}
+
+.testimonials span {
+    font-size: 20px;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.testimonials h1 {
+    font-size: 60px;
+    width: 400px;
+    margin-top: 30px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.testimonials .image {
+    padding: 30px 580px;
+
+}
+
+.testimonials .image img {
+    width: 100px;
+    height: 90px;
+    display: flex;
+}
+
+.testimonials p {
+    width: 600px;
+    text-align: center;
+    margin-left: 320px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.testimonials .image2 {
+    width: 150px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.testimonials .image2 h1 {
+    margin-top: -20px;
+    font-family: "Red Hat Display", sans-serif;
+
+    font-size: 30px;
+}
+
+.testimonials .image2 p {
+    font-size: 21px;
+    width: 250px;
+    margin-left: -50px;
+}
+
+.testimonials .image3 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.testimonials .image4 {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+
+.testimonials .image5 {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
+
+.testimonials .image6 {
+    position: absolute;
+    top: 500px;
+    right: 300px;
+}
+
+.testimonials .image10 img {
+    width: 100px;
+    filter: blur(2px);
+}
+
+.blog {
+    width: 100%;
+
+    height: 75vh;
+    padding: 100px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .blog_card {
+    display: flex;
+    gap: 50px;
+
+}
+
+.blog .blog_card .card1 {
+    width: 350px;
+    height: 350px;
+}
+
+.blog .blog_card .card1 p {
+    margin-top: 15px;
+    color: blueviolet;
+    font-size: 22px;
+}
+
+.blog .blog_card .card1 h3 {
+    font-size: 20px;
+    margin-top: 23px;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.blog .blog_card .card1 img {
+    width: 350px;
+    height: 220px;
+}
+
+.blog .blog_card .card2 {
+    width: 250px;
+    height: 350px;
+    background-image: url("./image/Rectangle 14.png");
+}
+
+.blog .blog_card .card2 .text {
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    background: linear-gradient(#ffffff06, black);
+}
+
+.blog .blog_card .card3 .text {
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    background: linear-gradient(#ffffff06, black);
+}
+
+.blog .blog_card .card2 p {
+    margin-top: 220px;
+    color: #fff;
+}
+
+.blog .blog_card .card2 h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #fff;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.blog .blog_card .card3 p {
+    margin-top: 240px;
+    color: #fff;
+}
+
+.blog .blog_card .card3 h2 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #fff;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+
+.blog .blog_card .card3 {
+    width: 250px;
+    height: 350px;
+    background-image: url("./image/Rectangle 15.png");
+}
+
+.blog .blog_text span {
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.blog .blog_text h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    width: 250px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+.contact {
+    width: 100%;
+    height: 130vh;
+    padding: 80px 10%;
+    background: linear-gradient(#fff,rgb(230, 202, 255),rgb(230, 203, 255),#fff);
+}
+
+.contact .contact_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .contact_page .text {
+    width: 650px;
+}
+.contact .contact_page .text span{
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+.contact .contact_page .text h2{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+.contact .contact_page .link a{
+    font-size: 25px;
+    text-decoration: underline;
+    color: blueviolet;
+}
+.contact input{
+    width: 100%;
+    border: none;
+    margin-top: 60px;
+    font-size: 30px;
+    background-color: transparent;
+    outline: none;
+}
+
+.contact .btn {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .btn button{
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+.contact .btn .icon{
+    display: flex;
+    gap: 40px;
+}
+.contact .btn .icon i{
+    font-size: 30px;
+}
+.contact .btn .icon .fa-arrow-right{
+    color: blueviolet;
+}
+.contact .www{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .www p{
+    font-size: 40px;
+    margin-top: 130px;
+    font-weight: 600;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+.contact .www .icon{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+.contact .www .icon button{
+   border: none;
+   background-color: transparent;
+}
